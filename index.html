@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;900&family=Pacifico&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="preload" as="image" href="./image/IMG_3539.JPG" media="min-width(768px)">
+    <link rel="preload" as="image" href="./image/IMG_3539.JPG" media="min-width(768px)">
+    <link rel="preload" as="image" href="./image/IMG_3539.JPG">
+</head>
+<body id="top">
+    <header class="header" data-header>
+        <div class="container">
+            <h1>
+                <a href="" class="logo">Onyii Partfait <span class="span">.</span></a>
+            </h1>
+            <nav class="navbar" data-navbar>
+                <ul  class="navbarlist">
+                    <li class="navitem">
+                        <a href="#home" class="navbarlink" data-nav-link>Home</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#food-menu" class="navbarlink" data-nav-link>Shop</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#about" class="navbarlink" data-nav-link>About Us</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#testimony" class="navbarlink" data-nav-link>Reviews</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#contactus" class="navbarlink" data-nav-link>ContactUs</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-btn-group">
+                <button class="searchbtn" aria-label="search" data-search-btn>
+                    <ion-icon name="search-outline"></ion-icon>
+
+                    <button class="btn btn-hover"> Reservation</button>
+
+                    <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </button>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-container" data-search-container>
+        <div class="search-box">
+            <input type="text" name="search" aria-label="Search Here" placeholder="Type Keywords" class="search-input">
+        
+            <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+        </div>
+
+        <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+    </div>
+
+    <main>
+        <article>
+            <section class="hero" id="home" style="background-image: url('./image/IMG_0968.JPG">
+                <div class="container">
+                    <div class="herocontent">
+                        <p class="herosubtitle">Eat, Sleep And </p>
+                        <h2 class="h1 hero-title">Enjoy Our Sweet Cake and Partfait!</h2>
+                        <p class="herotext">
+                            Cakes And Parfaits are Special. Every Birthday, Every Celebration ends with something sweet. A cake. A parfait. And People remember. It's All about the memories.
+                        </p>
+                        <button class="btn">Book Us</button>
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="./image/IMG_1145.JPG" width="820" height="400" loading="lazy" alt="Parfait" class="w-100 hero-img-bg">
+                    </figure>
+                </div>
+            </section>
+
+
+            <section class="section section-divider white promo" id="shop">
+                <div class="container">
+                    <ul class="promo-list has-scrollbar">
+                        <li class="promoitems">
+                            <div class="promocard">
+                                <div class="cardicon">
+                                    <img src="./image/IMG_0099.JPG" width="60" height="60" alt="Parfait">
+                                </div>
+                                <h3 class="h3card-title">Red Velvet Parfait</h3>
+                                <p class="cardtext">
+                                    Red Velvet Parfait Receips turns the classic favourite into a show-stopping for entertaining.
+                                </p>
+                                <img src="./image/IMG_0108.JPG" width="300" height="300" loading="lazy" alt="Parfait" class="w-100 card-banner">
+                            </div>
+                        </li>
+    
+                        <li class="promoitems">
+                            <div class="promocard">
+                                <div class="cardicon">
+                                    <img src="./image/IMG_0744.JPG" width="60" height="60" alt="Parfait">
+                                </div>
+                                <h3 class="h3card-title">Chocolate Cream Parfait</h3>
+                                <p class="cardtext">
+                                   We make creamy Chocolate parfait.
+                                </p>
+                                <img src="./image/IMG_0746.JPG" width="300" height="300" loading="lazy" alt="Parfait" class="w-100 card-banner">
+                            </div>
+                        </li>
+                        
+                        <li class="promoitems">
+                            <div class="promocard">
+                                <div class="cardicon">
+                                    <img src="./image/IMG_1341.JPG" width="60" height="60" alt="Parfait">
+                                </div>
+                                <h3 class="h3 card-title">Mixed Velvet and Chocolate parfait</h3>
+                                <p class="cardtext">
+                                    A Good Parfait Is Good For The Health.
+                                </p>
+                                <img src="./image/IMG_1331.JPG" width="300" height="300" loading="lazy" alt="Parfait" class="w-100 card-banner">
+                            </div>
+                        </li>
+    
+                        <li class="promoitems">
+                            <div class="promocard">
+                                <div class="cardicon">
+                                    <img src="./image/IMG_1102.JPG" width="60" height="60" alt="Parfait">
+                                </div>
+                                <h3 class="h3 card-title">Cake</h3>
+                                <p class="cardtext">
+                                    You dont need a special events to get cakes! Enjoy Our Delicious cake today
+                                </p>
+                                <img src="./image/IMG_1108.JPG" width="300" height="300" loading="lazy" alt="Parfait" class="w-100 card-banner">
+                            </div>
+                        </li>
+    
+                        <li class="promoitems">
+                            <div class="promocard">
+                                <div class="cardicon">
+                                    <img src="./image/IMG_1527.JPG" width="60" height="60" alt="Parfait">
+                                </div>
+                                <h3 class="h3card-title">Cake </h3>
+                                <p class="cardtext">
+                                    Cake Of The Day, Happiness all the Way.
+                                </p>
+                                <img src="./image/IMG_1585.JPG" width="300" height="300" loading="lazy" alt="Parfait" class="w-100 card-banner">
+                            </div>
+                        </li>
+    
+                        <li class="promoitems">
+                            <div class="promocard">
+                                <div class="cardicon">
+                                    <img src="./image/IMG_1335.JPG" width="60" height="60" alt="Parfait">
+                                </div>
+                                <h3 class="h3card-title">Creamy Parfait</h3>
+                                <p class="cardtext">
+                                   A parfait is not just a dessert. it is a very nutritional breakfast too. Have a cake parfait today!
+                                </p>
+                                <img src="./image/IMG_1340.JPG" width="300" height="300" loading="lazy" alt="Parfait" class="w-100 card-banner">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section class="section section-divider gray about" id="about">
+                <div class="container">
+                    <div class="about-banner">
+                        <img src="./image/IMG_1104.JPG" height="459" width="509" loafin="lazy" alt="Cakes and Parfait" class="w-100 about-img">
+                        <img src="./image/IMG_0970.PNG" width="216" height="226" loading="lazy" alt="get up to 50% off now" class="abs-img scale-up-anim">
+                    </div>
+                    <div class="about-container">
+                        <h2 class="h2 section-title">
+                            Cakes, Parfait, and The Best Snacks <span class="span">In Lagos!!</span>
+                        </h2>
+
+                        <p class="section-text">
+                            Onyii Parfait is a small scale  business located in ojo lagos alaba. We make delicious parfait and cakes which are easily affordable.
+                        </p>
+
+                        <ul class="about-list">
+                           <li class="about-item">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <span class="span">Delicious and Healthy Diet</span>
+                           </li>
+
+                           <li class="about-item">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <span class="span"> Fast Delivery all Over Lagos</span>
+                           </li>
+
+                           <li class="about-item">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <span class="span">Easily Affordable & Refreshing</span>
+                           </li>
+
+                           <li class="about-item">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <span class="span">Fastest Food And Home Delivery</span>
+                           </li>
+                        </ul>
+
+                        <button class="btn btn-hover">
+                             Place An order
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section white food-menu" id="food-menu">
+                <div class="container">
+                    <p class="section-sutitle">
+                        Popular  Parfait
+                    </p>
+                    <h2 class="section-title">
+                        Our Delicious <span class="span"> Products</span>
+                    </h2>
+                    <p class="section-text">
+                        Cake Parfait helps makes eating and consuming of food easier. You can't go wrong with a cake parfait!
+                    </p>
+
+                    <ul class="filter-list">
+                        <li>
+                            <button class="filter-btn active"> All</button>
+                        </li>
+    
+                        <li>
+                            <button class="filter-btn"> Pizza</button>
+                        </li>
+                        <li>
+                            <button class="filter-btn"> Cakes</button>
+                        </li>
+                        <li>
+                            <button class="filter-btn"> Meals</button>
+                        </li>
+                    </ul>
+
+                    <ul class="food-menu-list">
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="./image/IMG_0686.JPG" width="300" height="300" loading="lazy" alt="" class="w-100">
+                                
+                                     <div class="badge">-10%</div>
+                                    <button class="btn food-menu-btn">Place An Order</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Butter Cake</p>
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title"> Butter Cream Cake</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price</p>
+                                    <data class="price" value="#1500">#10,000</data>
+                                    <del class="del"> #20000</del>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="./image/IMG_1108.JPG" width="300" height="300" loading="lazy" alt="" class="w-100">
+                                
+                                     <div class="badge">-10%</div>
+                                    <button class="btn food-menu-btn">Order Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Butter Cream</p>
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">3 Layer Butter Cream Cake</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price</p>
+                                    <data class="price" value="#1500">#15000</data>
+                                    <del class="del"> #25000</del>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="./image/IMG_2003.JPG" width="300" height="300" loading="lazy" alt="" class="w-100">
+                                
+                                     <div class="badge">-3%</div>
+                                    <button class="btn food-menu-btn"> Order Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">1 Layer Cake</p>
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">One Layer Cake</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="#1500">#7000</data>
+                                    <del class="del"> #10,000</del>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="./image/IMG_1137.JPG" width="300" height="300" loading="lazy" alt="" class="w-100">
+                                
+                                     <div class="badge">-5%</div>
+                                    <button class="btn food-menu-btn"> Order Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">FootBall Cake</p>
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Football Creamy Cake</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="#1500">#10,000</data>
+                                    <del class="del"> #15,000</del>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="./image/IMG_1912.JPG" width="300" height="300" loading="lazy" alt="" class="w-100">
+                                
+                                     <div class="badge">-10%</div>
+                                    <button class="btn food-menu-btn"> Order Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Three Layer</p>
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Layer Butter-Cream Cake</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="#1500">#15,000</data>
+                                    <del class="del"> #20,000</del>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+                                <div class="card-banner">
+                                    <img src="./image/IMG_1135.JPG" width="300" height="300" loading="lazy" alt="" class="w-100">
+                                
+                                     <div class="badge">-5%</div>
+                                    <button class="btn food-menu-btn"> Order Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Micky Mouse</p>
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </div>
+
+                                <h3 class="h3 card-title">Micky Mouse Cake</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="#1500">#10,000</data>
+                                    <del class="del"> #15,000</del>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section section-divider white cta" >
+            <div class="cta-content">
+                <h2 class="section-title">
+                    Our Cake Parfait Have An Excellence of <span class="span"> Quality Taste!</span>
+                </h2>
+
+                <p class="section-text">Everything in a parfait is known as 'parfait'-the glass, the spoon, and even the food itself. This Parfait is so awesome and wholesome with so many nutients within a single dish. A food that is good for everyone alike and if you haven't had a parfait, you are missing the best things in life. so nice to eat and a really cool way to entertain your family and friends which can be had as a snack, for breakfast, lunch, brunch, or even dinner. Get a cake parfait from us today.</p>
+
+                <button class="btn btn-hover">Order Now</button>
+            </div>
+
+            <figure class="cta-banner">
+                <img src="./image/IMG_1340.JPG" width="700" height="637" loading="lazy" alt="" class="w-100 cta-img">
+            
+                <img src="./image/IMG_0971.PNG" width="216" height="226" alt="" class="abs-img scale-up-anim">
+            </figure>
+            </section>
+
+            <section class="section-divider gray delivery">
+                <div class="container">
+                    <div class="delivery-content">
+                        <h2 class="section-title">
+                            A moment of Delivered on <span class="span">Right Time</span> & Place.
+                        </h2>
+                        <p class="section-text">
+                            We make sure our ordered and delivered products gets to the hands of our esteem customers right on time.
+                        </p>
+                        <button class="btn btn-hover"> Order Now</button>
+                    </div>
+
+                    <figure class="delivery-banner">
+                        <img src="./image/IMG_0975.PNG" width="700" height="602" loading="lazy" alt="" class="w-100">
+                    
+                        <img src="./image/IMG_0965.PNG" width="1000" height="880" alt="" class="w-100 delivery-img" data-delivery-boy>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section section-divider white testi" id="testimony">
+                <div class="container">
+                    <p class="section-subtitle">Our Client Reviews</p>
+
+                    <h2 class="section-title">
+                        Our Esteem Customers <span class="span"> Reviews</span>
+                    </h2>
+                    <ul class="testi-list has-scrollbar">
+                        <li class="testi-items">
+                            <div class="testi-card">
+                                <div class="profile-wrapper">
+                                    <figure class="avatar">
+                                        <img src="./image/YFOM2269.JPG" width="100" height="100" alt="Onyinye Nsude">
+                                    </figure>
+                                    <div class="h4 testi-name">Esther Bello</div>
+                                    <p class="test-title">Student</p>
+                                    
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    "onyinye cake parfait are really really nice. i was happy eating it."
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testi-items">
+                            <div class="testi-card">
+                                <div class="profile-wrapper">
+                                    <figure class="avatar">
+                                        <img src="./image/IMG_4272.PNG" width="100" height="80" alt="Onyinye Nsude">
+                                    </figure>
+                                    <div class="h4 testi-name">Theresa</div>
+                                    <p class="test-title">Friend</p>
+                                    
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    "Thank you for the cake onyinye. my siblings finished it for me o."
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testi-items">
+                            <div class="testi-card">
+                                <div class="profile-wrapper">
+                                    <figure class="avatar">
+                                        <img src="./image/IMG_3479.JPG" width="100" height="80" alt="Onyinye Nsude">
+                                    </figure>
+                                    <div class="h4 testi-name">Princess</div>
+                                    <p class="test-title">Classmate</p>
+                                    
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    "Abeg the cake parfait too much. it's the baddest.i love it. i go like by again"
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testi-items">
+                            <div class="testi-card">
+                                <div class="profile-wrapper">
+                                    <figure class="avatar">
+                                        <img src="./image/EIMW8517.JPG" width="100" height="80" alt="Onyinye Nsude">
+                                    </figure>
+                                    <div class="h4 testi-name"> Chiamaka</div>
+                                    <p class="test-title">Cousin</p>
+                                    
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    "Thank you for the cake onyiiiiiii. i didn't want to finish it. it was too soft and sweet"
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testi-items">
+                            <div class="testi-card">
+                                <div class="profile-wrapper">
+                                    <figure class="avatar">
+                                        <img src="./image/AZPA3824.JPG" width="100" height="100" alt="Onyinye Nsude">
+                                    </figure>
+                                    <div class="h4 testi-name"> Ezineee</div>
+                                    <p class="test-title">Client</p>
+                                    
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    "Guyyyyyyyyyyyyyyyyy. you're good forget. i love the cake. it made my birthday worth it. Thank you for real"
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testi-items">
+                            <div class="testi-card">
+                                <div class="profile-wrapper">
+                                    <figure class="avatar">
+                                        <img src="./image/BYJH1184.JPG" width="100" height="100" alt="Onyinye Nsude">
+                                    </figure>
+                                    <div class="h4 testi-name"> Precious</div>
+                                    <p class="test-title">A Client</p>
+                                    
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    "i go like buy the cake parfait again ohh. its very creamy"
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section class="section-divider gray banner">
+                <div class="container">
+                    <div class="banner-link">
+                        <ul class="banner-list">
+                            <li class="banner-item banner-lg">
+                                <div class="banner-card">
+                                    <img src="./image/IMG_1585.JPG" width="550" height="450" alt="" class="banner-img">
+                                    <div class="banner-item-content">
+                                        <p class="banner-subtitle"> 10% Off Now!</p>
+
+                                        <h3 class="banner-title">Discount For Our Cakes and Partfait</h3>
+                                        <p class="banner-text">Sale Off 10% only for this week!</p>
+                                   
+                                       <button class="btn">Order From Us</button> 
+                                    </div>
+                                
+                                </div>
+                            </li>
+
+                            <li class="banner-item banner-sm">
+                                <div class="banner-card">
+                                    <img src="./image/IMG_1141.JPG" width="550" height="465" alt="" class="banner-img">
+                                    <div class="banner-item-content">
+                                        <p class="banner-subtitle"> 10% Off Now!</p>
+
+                                        <h3 class="banner-title">Discount For Our Cakes and Partfait</h3>
+                                        <p class="banner-text">Sale Off 10% only for this week!</p>
+                                   
+                                       <button class="btn">Order From Us</button> 
+                                    </div>
+                                
+                                </div>
+                            </li>
+
+                            <li class="banner-item banner-md">
+                                <div class="banner-card">
+                                    <img src="./image/IMG_1139.JPG" width="550" height="220" alt="" class="banner-img">
+                                    <div class="banner-item-content">
+                                        <p class="banner-subtitle"> 10% Off Now!</p>
+
+                                        <h3 class="banner-title">Discount For Our Cakes and Partfait</h3>
+                                        <p class="banner-text">Sale Off 10% only for this week!</p>
+                                   
+                                       <button class="btn">Order From Us</button> 
+                                    </div>
+                                
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer" id="contactus">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="footer-brand">
+                            <a href="#" class="logo">Onyii Parfait <span class="span">.</span></a>
+                            <p class="footer-text">
+                                We will support or hlep you to find out which way you can raise your funds more.
+                            </p>
+
+                            <ul class="social-list">
+                                <li><a href="" class="social-links"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                <li><a href="" class="social-links"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                <li><a href="" class="social-links"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                                <li><a href="" class="social-links"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                            </ul>
+                        </div>
+
+                        <ul class="footer-list">
+                            <li><p class="footer-list-title">Contact Info</p></li>
+                            
+                            <li><p class="footer-list-item">+(234) 7065 903 207</p></li>
+
+                            <li><p class="footer-list-item">onyinyensude@gmail.com</p></li>
+
+                            <li><address class="footer-list-item">No 1 Alahji Bakare Close, Ojo, Alaba Lagos Nigeria</address></li>
+                        </ul>
+
+                        
+                        <ul class="footer-list">
+                            <li><p class="footer-list-title">Opening Hours</p></li>
+                            
+                            <li><p class="footer-list-item">Monday- Saturday: 8:00 - 10:00</p></li>
+
+                            <li><p class="footer-list-item">Sundays: 2:00pm -4:00pm</p></li>
+                        </ul>
+
+                        <form action="" class="footer-form" id="contactus">
+                            <p class="footer-list-title">Book An Order</p>
+
+                            <div class="input-wrapper">
+                                <input type="text" name="Full Name" placeholder="Your Name" aria-label="Your name" class="input-field" required>
+
+                                <input type="text" name="Email address" placeholder="Your Email" aria-label="Your Email" class="input-field" required>
+                            </div>
+
+                            <textarea name="message" placeholder="Your Message" class="textarea"></textarea>
+
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p class="copyright-text">
+                            2022 <a href="#"class="copytight-link">Nsude Chinonso</a> Code All right Reserved.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+
+            <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-to-top>
+                <ion-icon name="chevron-up"></ion-icon>
+            </a>
+        </article>
+    </main>
+    
+
+    
+
+    <script src="./js/script.js" defer></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
